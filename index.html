@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./img/FAVICON-SPACEX.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>OneBitX</title>
+</head>
+<body>
+  <div class="base container-fluid d-flex">
+    <div class="container base-card p-4 card-img-overlay mt-md-5">
+      <header class="container text-center">
+        <img class="img-fluid w-50 mb-3" src="./img/logoOneBitDark.png" alt="">
+      </header>
+      <form class="" action="">
+        <div class="mb-3">
+          <label class="text-light mb-1 form-label" for="first">1 - Qual o seu nome?</label>
+          <div class="input-group mb-2">
+            <span class="input-group-text" id="first">Primeiro nome:</span>
+            <input type="text" class="form-control" placeholder="nome" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group">
+            <span class="input-group-text" id="first">Segundo nome:</span>
+            <input type="text" class="form-control" placeholder="sobrenome" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label class=" form-label text-light mb-1" for="second">2 - Qual o seu gênero?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="second" id="h" value="homem">
+            <label class="text-light form-check-label" for="h">Homem</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="second" id="m" value="mulher">
+            <label class="text-light form-check-label" for="h">Mulher</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="second" id="nda" value="prefiro não informar">
+            <label class="text-light form-check-label" for="nda">Prefiro não informar</label>
+          </div>
+        </div>
+        <div class="mb-2">
+          <label class="text-light form-label mb-1" for="third">3 - Marque os treinamentos que você fez:</label>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" name="third" id="astronautaJr" value="Treinamento básico de astronauta">
+            <label class="text-light form-label" for="astronautaJr">Treinamento básico de astronauta</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" name="third" id="fisicoJr" value="Treinamento físico básico">
+            <label class="text-light form-label" for="fisicoJr">Treinamento físico básico</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" name="third" id="astronautaSr" value="Treinamento avançado de astronauta">
+            <label class="text-light form-label" for="astronautaSr">Treinamento avançado de astronauta</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" name="third" id="fisicoSr" value="Treinamento físico intenso">
+            <label class="text-light form-label" for="fisicoSr">Treinamento físico intenso</label>
+          </div>
+        </div>
+        <div>
+          <label class="text-light form-label mb-2" for="fourth">4 - Quais você acha que são suas qualidades?</label>
+          <div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="fourth" id="op1" value="proativo">
+              <label class="text-light form-label" for="op1">Proativo</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="fourth" id="op2" value="Resistente">
+              <label class="text-light form-label" for="op2">Resistente</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="fourth" id="op3" value="Não vomito fácil">
+              <label class="text-light form-label" for="op3">Não vomito fácil</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="fourth" id="op4" value="Não temo marciano">
+              <label class="text-light form-label" for="op4">Não temo marciano</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="fourth" id="op5" value="Já vi todos os star wars">
+              <label class="text-light form-label" for="op5">Já vi todos os star wars</label>
+            </div>
+          </div>
+          
+          
+        </div>
+      </form>
+      <div class="text-center">
+        <button class="btn btn-outline-danger mt-3" type="submit">Enviar</button>
+      </div>
+    </div>
+    <footer class="container text-center align-self-end mb-3">
+      <small class="text-light">Feito por Nikolas © Atividade OneBitCode todos os direitos reservados - 2022</small>
+    </footer>
+  </div>
+  
+  <script src="../node_modules//bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.base{
+  height: 100vh;
+  background-image: url(../img/backgroundLp.png);
+  background-size: cover;
+
+  .base-card{
+    background-color: #131212f1;;
+    max-width: 500px;
+    height: 650px;
+    
+    @media(max-width: 450px){
+      .base-card{
+        height: 1000px;
+      }
+    }
+    }
+  }

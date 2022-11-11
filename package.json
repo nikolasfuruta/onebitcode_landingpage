@@ -1,0 +1,16 @@
+{
+  "name": "boostrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./atividade_1/sass/style.scss:atividade_1/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.56.1"
+  }
+}
